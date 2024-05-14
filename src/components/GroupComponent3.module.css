@@ -1,0 +1,323 @@
+.frameChild,
+.ourProducts {
+  position: relative;
+  max-width: 100%;
+}
+.frameChild {
+  height: 902px;
+  width: 1920px;
+  background-color: #fcfafa;
+  display: none;
+}
+.ourProducts {
+  width: 340px;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+}
+.ourComprehensiveServices {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 54px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.ourComprehensiveServicesWrapper,
+.ourProductsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ourComprehensiveServicesWrapper {
+  align-self: stretch;
+  font-size: 48px;
+  color: #0e0e0e;
+  font-family: Audiowide;
+}
+.ourProductsParent {
+  width: 1108px;
+  gap: 16px;
+  max-width: 100%;
+}
+.instanceChild {
+  align-self: stretch;
+  height: 340px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.bitvaultForge,
+.sha256AlgorithmMining {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.bitvaultForge {
+  font-weight: 500;
+}
+.sha256AlgorithmMining {
+  font-size: 16px;
+  color: #6e6e6e;
+}
+.bitvaultForgeParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.frameItem {
+  width: 188px;
+  height: 40px;
+}
+.frameGroup,
+.rectangleGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.frameGroup {
+  align-self: stretch;
+}
+.rectangleGroup {
+  width: 340px;
+  max-width: 100%;
+}
+.instanceItem {
+  align-self: stretch;
+  height: 340px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.bitvaultForge1,
+.sha256AlgorithmMining1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.bitvaultForge1 {
+  font-weight: 500;
+}
+.sha256AlgorithmMining1 {
+  font-size: 16px;
+  color: #6e6e6e;
+}
+.bitvaultForgeGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.frameInner {
+  width: 188px;
+  height: 40px;
+}
+.frameContainer,
+.rectangleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.frameContainer {
+  align-self: stretch;
+}
+.rectangleContainer {
+  width: 340px;
+  max-width: 100%;
+}
+.instanceInner {
+  align-self: stretch;
+  height: 340px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.bitvaultForge2,
+.sha256AlgorithmMining2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.bitvaultForge2 {
+  font-weight: 500;
+}
+.sha256AlgorithmMining2 {
+  font-size: 16px;
+  color: #6e6e6e;
+}
+.bitvaultForgeContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.frameButton {
+  width: 188px;
+  height: 40px;
+}
+.frameDiv,
+.frameParent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.frameParent1 {
+  align-self: stretch;
+}
+.frameDiv {
+  width: 340px;
+  max-width: 100%;
+}
+.rectangleIcon {
+  align-self: stretch;
+  height: 340px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.bitvaultForge3,
+.sha256AlgorithmMining3 {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.bitvaultForge3 {
+  font-weight: 500;
+}
+.sha256AlgorithmMining3 {
+  font-size: 16px;
+  color: #6e6e6e;
+}
+.bitvaultForgeParent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.frameChild1 {
+  width: 188px;
+  height: 40px;
+}
+.frameParent2,
+.rectangleParent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.frameParent2 {
+  align-self: stretch;
+}
+.rectangleParent1 {
+  width: 340px;
+  max-width: 100%;
+}
+.instanceParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+  color: #0e0e0e;
+}
+.frameParent {
+  width: 1536px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 72px;
+  max-width: 100%;
+  z-index: 1;
+}
+.rectangleParent {
+  align-self: stretch;
+  background-color: #fcfafa;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 65px 20px 65px 26px;
+  box-sizing: border-box;
+  min-height: 902px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 20px;
+  color: #0bd752;
+  font-family: Montserrat;
+}
+@media screen and (max-width: 1525px) {
+  .instanceParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 850px) {
+  .ourComprehensiveServices {
+    font-size: 38px;
+    line-height: 43px;
+  }
+  .ourComprehensiveServicesWrapper {
+    gap: 16px;
+  }
+  .frameParent {
+    gap: 36px;
+  }
+  .rectangleParent {
+    padding-top: 42px;
+    padding-bottom: 42px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ourProducts {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .ourComprehensiveServices {
+    font-size: 29px;
+    line-height: 32px;
+  }
+  .bitvaultForge,
+  .bitvaultForge1,
+  .bitvaultForge2,
+  .bitvaultForge3 {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .frameParent {
+    gap: 18px;
+  }
+  .rectangleParent {
+    padding-top: 27px;
+    padding-bottom: 27px;
+    box-sizing: border-box;
+  }
+}

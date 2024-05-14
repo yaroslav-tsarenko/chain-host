@@ -1,0 +1,82 @@
+.communityIcons {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.communityCirclesChild {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #0e0e0e;
+}
+.communityCircles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 4.5px 0 0;
+}
+.users {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 69px;
+}
+.communityCirclesParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.communitySeparator {
+  width: 257px;
+  position: relative;
+  font-size: 48px;
+  line-height: 54px;
+  font-family: Audiowide;
+  display: inline-block;
+}
+.withAStrong {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6e6e6e;
+}
+.communityStats {
+  width: 438px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 31.7px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 20px;
+  color: #0e0e0e;
+  font-family: Montserrat;
+}
+@media screen and (max-width: 850px) {
+  .communitySeparator {
+    font-size: 38px;
+    line-height: 43px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .users {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .communitySeparator {
+    font-size: 29px;
+    line-height: 32px;
+  }
+  .communityStats {
+    gap: 16px;
+  }
+}

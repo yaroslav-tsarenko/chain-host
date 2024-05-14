@@ -1,0 +1,89 @@
+.frameChild {
+  height: 145px;
+  width: 145px;
+  position: relative;
+  background-color: #0e0e0e;
+  display: none;
+}
+.sustainabilityCirclesIcon {
+  height: 97px;
+  width: 97px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.rectangleParent {
+  background-color: #0e0e0e;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 24px;
+  box-sizing: border-box;
+  min-width: 145px;
+  z-index: 1;
+}
+.sustainabilitySeparator {
+  width: 165px;
+  position: relative;
+  line-height: 54px;
+  display: inline-block;
+  z-index: 1;
+}
+.energyEfficientOperationsR {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Montserrat;
+  white-space: pre-wrap;
+  z-index: 1;
+}
+.sustainabilityDetails {
+  align-self: stretch;
+  flex-direction: column;
+}
+.sustainabilityDetails,
+.sustainabilityDetailsWrapper,
+.sustainabilityPoints {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sustainabilityDetailsWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: 9.5px 0 0;
+  box-sizing: border-box;
+  min-width: 157px;
+}
+.sustainabilityPoints {
+  width: 443px;
+  flex-direction: row;
+  gap: 56px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 48px;
+  color: #0e0e0e;
+  font-family: Audiowide;
+}
+@media screen and (max-width: 850px) {
+  .sustainabilitySeparator {
+    font-size: 38px;
+    line-height: 43px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .rectangleParent,
+  .sustainabilityCirclesIcon {
+    flex: 1;
+  }
+  .sustainabilitySeparator {
+    font-size: 29px;
+    line-height: 32px;
+  }
+  .sustainabilityPoints {
+    flex-wrap: wrap;
+    gap: 28px;
+  }
+}

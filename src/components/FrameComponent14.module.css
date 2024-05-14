@@ -1,0 +1,38 @@
+.componentParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.componentParent {
+  justify-content: flex-start;
+  gap: 75px;
+  z-index: 2;
+}
+.frameWrapper {
+  width: 1816px;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  margin-top: -217px;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: Audiowide;
+}
+@media screen and (max-width: 1525px) {
+  .componentParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 850px) {
+  .componentParent {
+    gap: 37px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .componentParent {
+    gap: 19px;
+  }
+}

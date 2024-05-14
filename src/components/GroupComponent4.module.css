@@ -1,0 +1,78 @@
+.frameChild {
+  width: 76px;
+  height: 76px;
+  position: relative;
+  object-fit: contain;
+}
+.pioneeringInnovation {
+  margin: 0;
+  align-self: stretch;
+  height: 56px;
+  position: relative;
+  font-size: inherit;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.pioneeringInnovationWrapper {
+  width: 335px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.chainhostIsAt {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Montserrat;
+}
+.frameParent,
+.frameWrapper,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 16px;
+}
+.frameWrapper,
+.rectangleParent {
+  box-sizing: border-box;
+}
+.rectangleParent {
+  flex: 1;
+  background-color: #0e0e0e;
+  flex-direction: column;
+  padding: 64px 58px 50px 40px;
+  gap: 48px;
+  flex-shrink: 0;
+}
+.frameWrapper {
+  height: 440px;
+  width: 440px;
+  flex-direction: row;
+  padding: 0;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: Audiowide;
+}
+@media screen and (max-width: 450px) {
+  .pioneeringInnovation {
+    font-size: 19px;
+    line-height: 22px;
+  }
+  .rectangleParent {
+    gap: 24px;
+    padding: 237px 20px 32px;
+    box-sizing: border-box;
+  }
+}

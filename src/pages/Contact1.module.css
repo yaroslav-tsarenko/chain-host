@@ -1,0 +1,30 @@
+.contact,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  max-width: 100%;
+}
+.contact {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  gap: 96px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1225px) {
+  .contact {
+    gap: 48px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .contact {
+    gap: 24px;
+  }
+}

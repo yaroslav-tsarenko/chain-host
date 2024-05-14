@@ -1,0 +1,79 @@
+.howDoI {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.fAQExampleContent {
+  width: 867px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.fAQIconFirst {
+  width: 16px;
+  height: 10px;
+  position: relative;
+  object-fit: contain;
+}
+.fAQExampleIcons,
+.fAQExampleItem {
+  display: flex;
+  justify-content: space-between;
+}
+.fAQExampleIcons {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.5px 8px;
+  box-sizing: border-box;
+  min-height: 11px;
+}
+.fAQExampleItem {
+  width: 1450px;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+  flex-shrink: 0;
+  gap: 20px;
+}
+.fAQExampleRow,
+.fAQIconSecond {
+  align-self: stretch;
+  max-width: 100%;
+}
+.fAQIconSecond {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+}
+.fAQExampleRow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 36px;
+  text-align: left;
+  font-size: 20px;
+  color: #0e0e0e;
+  font-family: Montserrat;
+}
+@media screen and (max-width: 1225px) {
+  .fAQExampleItem {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 850px) {
+  .fAQExampleRow {
+    gap: 18px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .howDoI {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

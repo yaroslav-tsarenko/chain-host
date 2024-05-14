@@ -1,0 +1,330 @@
+.frequentlyAskedQuestions {
+  margin: 0;
+  align-self: stretch;
+  height: 108px;
+  position: relative;
+  font-size: inherit;
+  line-height: 54px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.frequentlyAskedQuestionsWrapper {
+  width: 787px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameChild {
+  height: 40px;
+  width: 178px;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+.whatIsCryptocurrency {
+  width: 867px;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.frameItem {
+  width: 16px;
+  height: 10px;
+  position: relative;
+  object-fit: contain;
+}
+.vectorWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0.5px 8px;
+  box-sizing: border-box;
+  min-height: 11px;
+}
+.whatIsCryptocurrencyParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+.cryptocurrencyIsA {
+  width: 867px;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.frameParent1 {
+  width: 1450px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.frameDiv,
+.frameInner {
+  align-self: stretch;
+  max-width: 100%;
+}
+.frameInner {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 24px;
+}
+.howDoI {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.howDoIBuyCryptocurrenciesWrapper {
+  width: 867px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.vectorIcon {
+  width: 16px;
+  height: 10px;
+  position: relative;
+  object-fit: contain;
+}
+.frameParent3,
+.vectorContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.vectorContainer {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.5px 8px;
+  box-sizing: border-box;
+  min-height: 11px;
+}
+.frameParent3 {
+  width: 1450px;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+  flex-shrink: 0;
+  gap: 20px;
+}
+.frameChild1,
+.frameParent2 {
+  align-self: stretch;
+  max-width: 100%;
+}
+.frameChild1 {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameParent2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 36px;
+}
+.howDoI1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.howDoISecureMyCryptoAsseWrapper {
+  width: 867px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameChild2 {
+  width: 16px;
+  height: 10px;
+  position: relative;
+  object-fit: contain;
+}
+.frameParent5,
+.vectorFrame {
+  display: flex;
+  justify-content: space-between;
+}
+.vectorFrame {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.5px 8px;
+  box-sizing: border-box;
+  min-height: 11px;
+}
+.frameParent5 {
+  width: 1450px;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+  flex-shrink: 0;
+  gap: 20px;
+}
+.frameChild3,
+.frameParent4 {
+  align-self: stretch;
+  max-width: 100%;
+}
+.frameChild3 {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameParent4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 36px;
+}
+.whatIsCrypto {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.whatIsCryptoStakingWrapper {
+  width: 867px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameChild4 {
+  width: 16px;
+  height: 10px;
+  position: relative;
+  object-fit: contain;
+}
+.frameParent6,
+.vectorWrapper1 {
+  display: flex;
+  justify-content: space-between;
+}
+.vectorWrapper1 {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.5px 8px;
+  box-sizing: border-box;
+  min-height: 11px;
+}
+.frameParent6 {
+  width: 1450px;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+  gap: 20px;
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 36px;
+  font-size: 20px;
+  font-family: Montserrat;
+}
+.frameContainer,
+.frameParent,
+.productListingInner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1536px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 64px;
+}
+.productListingInner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 48px;
+  color: #0e0e0e;
+  font-family: Audiowide;
+}
+@media screen and (max-width: 1225px) {
+  .frameGroup,
+  .frameParent3,
+  .frameParent5,
+  .frameParent6,
+  .whatIsCryptocurrencyParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 850px) {
+  .frequentlyAskedQuestions {
+    font-size: 38px;
+    line-height: 43px;
+  }
+  .frameContainer,
+  .frameParent2,
+  .frameParent4 {
+    gap: 18px;
+  }
+  .frameParent {
+    gap: 32px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frequentlyAskedQuestions {
+    font-size: 29px;
+    line-height: 32px;
+  }
+  .howDoI,
+  .howDoI1,
+  .whatIsCrypto,
+  .whatIsCryptocurrency {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .frameParent {
+    gap: 16px;
+  }
+}

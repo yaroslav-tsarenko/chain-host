@@ -1,0 +1,65 @@
+.frameChild {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.homepageInner,
+.rectangleParent {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 222px;
+  position: relative;
+  gap: 222px;
+}
+.homepageInner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 128px;
+  text-align: center;
+  font-size: 60px;
+  color: #fff;
+  font-family: Audiowide;
+}
+@media screen and (max-width: 1225px) {
+  .rectangleParent {
+    gap: 111px;
+    padding-bottom: 144px;
+    box-sizing: border-box;
+  }
+  .homepageInner {
+    padding-bottom: 83px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .rectangleParent {
+    gap: 55px;
+  }
+  .homepageInner {
+    padding-bottom: 54px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .rectangleParent {
+    padding-bottom: 94px;
+    box-sizing: border-box;
+  }
+}

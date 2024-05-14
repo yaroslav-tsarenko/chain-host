@@ -1,0 +1,84 @@
+.frameChild {
+  height: 198px;
+  width: 198px;
+  position: relative;
+  object-fit: cover;
+  min-height: 198px;
+}
+.sarahLawson,
+.theRiseOf {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.theRiseOf {
+  margin: 0;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.sarahLawsonParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.readMore {
+  align-self: stretch;
+  position: relative;
+  font-size: 12px;
+  line-height: 16px;
+}
+.frameParent,
+.frameWrapper,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 235px;
+  min-height: 198px;
+}
+.frameWrapper,
+.rectangleParent {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.rectangleParent {
+  flex-direction: row;
+  gap: 24px;
+}
+.frameWrapper {
+  flex-direction: column;
+  text-align: left;
+  font-size: 16px;
+  color: #0e0e0e;
+  font-family: Montserrat;
+}
+@media screen and (max-width: 850px) {
+  .frameChild {
+    flex: 1;
+  }
+  .frameParent {
+    min-height: auto;
+  }
+  .rectangleParent {
+    flex-wrap: wrap;
+  }
+  .frameWrapper {
+    gap: 22px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .theRiseOf {
+    font-size: 19px;
+    line-height: 22px;
+  }
+}

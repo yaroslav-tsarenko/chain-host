@@ -1,0 +1,96 @@
+.advantageSeparator {
+  width: 79px;
+  position: relative;
+  line-height: 54px;
+  display: inline-block;
+  -webkit-text-stroke: 1px #fff;
+}
+.cuttingEdgeTechnology {
+  margin: 0;
+  width: 649px;
+  position: relative;
+  font-size: inherit;
+  line-height: 28px;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.weStayAhead {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+}
+.advantageDetails,
+.cuttingEdgeTechnologyParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.cuttingEdgeTechnologyParent {
+  flex: 1;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 593px;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: Montserrat;
+}
+.advantageDetails {
+  width: 1036px;
+  flex-direction: row;
+  gap: 45px;
+}
+.advantageCardsChild {
+  height: 74px;
+  width: 74px;
+  position: relative;
+}
+.advantageCards {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  flex-shrink: 0;
+  gap: 20px;
+  text-align: center;
+  font-size: 48px;
+  color: transparent;
+  font-family: Audiowide;
+}
+@media screen and (max-width: 1225px) {
+  .advantageDetails {
+    flex-wrap: wrap;
+  }
+  .advantageCards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 850px) {
+  .advantageSeparator {
+    font-size: 38px;
+    line-height: 43px;
+  }
+  .cuttingEdgeTechnologyParent {
+    min-width: 100%;
+  }
+  .advantageDetails {
+    gap: 22px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .advantageSeparator {
+    font-size: 29px;
+    line-height: 32px;
+  }
+  .cuttingEdgeTechnology {
+    font-size: 19px;
+    line-height: 22px;
+  }
+}

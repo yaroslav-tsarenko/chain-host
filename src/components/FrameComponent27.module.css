@@ -1,0 +1,370 @@
+.frameChild {
+  height: 863px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 521px;
+}
+.hostingPackageFor,
+.sha256AlgorithmMining {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.hostingPackageFor {
+  margin: 0;
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 400;
+  font-family: Audiowide;
+  color: #fff;
+}
+.sha256AlgorithmMiningServeParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  color: #0bd752;
+}
+.thePinnacleOf {
+  line-height: 24px;
+}
+.chooseOptionsBelow,
+.frameItem,
+.thePinnacleOf {
+  align-self: stretch;
+  position: relative;
+}
+.frameItem {
+  height: 2px;
+  background-color: #d9d9d9;
+}
+.chooseOptionsBelow {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.hourly,
+.monthly {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 67px;
+}
+.hourly {
+  min-width: 54px;
+}
+.frameDiv,
+.monthlyParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.monthlyParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.frameDiv {
+  width: 353px;
+  justify-content: flex-start;
+  padding: 0 62px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameInner {
+  height: 4px;
+  flex: 1;
+  position: relative;
+  background-color: #fff;
+  z-index: 4;
+}
+.rectangleWrapper {
+  width: 235px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 64px;
+  box-sizing: border-box;
+}
+.vectorIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 4;
+}
+.frameContainer,
+.frameParent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.frameContainer {
+  align-items: flex-start;
+  gap: 5.5px;
+  max-width: 100%;
+}
+.rectangleDiv {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  opacity: 0.3;
+  z-index: 3;
+}
+.duration {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 75px;
+}
+.durationWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8.5px 0 0;
+}
+.parent {
+  height: 41px;
+  flex: 1;
+  font-family: Montserrat;
+  font-size: 16px;
+  color: #fff;
+  min-width: 130px;
+  width: auto;
+}
+.frameParent2 {
+  flex: 1;
+  flex-direction: row;
+  gap: 24px;
+}
+.frameGroup,
+.frameParent2,
+.frameWrapper1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 39px 0 33px;
+}
+.frameGroup {
+  width: 371px;
+  flex-direction: column;
+  padding: 17.5px 0 23px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 20px;
+  max-width: 100%;
+}
+.div,
+.quantity {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 74px;
+}
+.div {
+  min-width: 7px;
+}
+.wrapper {
+  width: 23px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px 7px;
+}
+.div1 {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 6px;
+}
+.container {
+  flex: 0.3333;
+  border: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px 13px;
+  z-index: 1;
+  margin-left: -1px;
+}
+.div2 {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 10px;
+}
+.frame {
+  flex: 1;
+  border: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px 7px;
+  z-index: 2;
+  margin-left: -1px;
+}
+.frameParent3,
+.quantityParent {
+  display: flex;
+  flex-direction: row;
+}
+.frameParent3 {
+  flex: 1;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.quantityParent {
+  width: 179px;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.noteThePinnacle {
+  align-self: stretch;
+  position: relative;
+  font-size: 12px;
+  line-height: 16px;
+  color: #0e0e0e;
+}
+.frameButton {
+  height: 40px;
+  flex: 1;
+}
+.showFaq {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 84px;
+}
+.showFaqWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px 0 0;
+}
+.frameParent,
+.instanceParent {
+  justify-content: flex-start;
+  gap: 24px;
+}
+.instanceParent {
+  width: 259px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  background-color: #0e0e0e;
+  flex-direction: column;
+  padding: 64px;
+  box-sizing: border-box;
+}
+.frameParent,
+.frameWrapper,
+.pdpInner,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameWrapper {
+  width: 735px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 22.5px 0 0;
+  box-sizing: border-box;
+  min-width: 735px;
+}
+.pdpInner,
+.rectangleParent {
+  flex-direction: row;
+  justify-content: center;
+}
+.rectangleParent {
+  width: 1536px;
+  row-gap: 20px;
+}
+.pdpInner {
+  align-self: stretch;
+  padding: 0 20px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+  font-family: Montserrat;
+}
+@media screen and (max-width: 1525px) {
+  .frameWrapper {
+    flex: 1;
+  }
+  .rectangleParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 850px) {
+  .frameChild {
+    min-width: 100%;
+  }
+  .hostingPackageFor {
+    font-size: 29px;
+    line-height: 34px;
+  }
+  .frameParent {
+    padding: 42px 32px;
+    box-sizing: border-box;
+  }
+  .frameWrapper {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .hostingPackageFor {
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .chooseOptionsBelow {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .frameDiv {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .frameParent2 {
+    flex-wrap: wrap;
+  }
+  .frameParent {
+    padding-top: 27px;
+    padding-bottom: 27px;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,105 @@
+.subscriptionSeparator {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #0e0e0e;
+}
+.subscribeAndSave {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 54px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.subscriptionTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 12px 0 12.5px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.atChainhostWe {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Montserrat;
+}
+.subscriptionDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+  max-width: 100%;
+}
+.subscriptionUsersChild {
+  height: 40px;
+  width: 176px;
+}
+.subscriptionUsers {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+}
+.subscriptionContent {
+  width: 1133px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  max-width: 100%;
+  z-index: 1;
+}
+.subscriptionSeparatorParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 195px 20px 192px;
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  text-align: center;
+  font-size: 48px;
+  color: #fff;
+  font-family: Audiowide;
+}
+@media screen and (max-width: 850px) {
+  .subscribeAndSave {
+    font-size: 38px;
+    line-height: 43px;
+  }
+  .subscriptionDetails {
+    gap: 16px;
+  }
+  .subscriptionSeparatorParent {
+    padding-top: 127px;
+    padding-bottom: 125px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .subscribeAndSave {
+    font-size: 29px;
+    line-height: 32px;
+  }
+}

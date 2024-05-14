@@ -1,0 +1,30 @@
+.blog,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  max-width: 100%;
+}
+.blog {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  gap: 112px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1225px) {
+  .blog {
+    gap: 56px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .blog {
+    gap: 28px;
+  }
+}

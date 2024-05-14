@@ -1,0 +1,374 @@
+.enquiries,
+.reviews,
+.specification {
+  margin: 0;
+  width: 218px;
+  position: relative;
+  font-size: inherit;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.enquiries,
+.reviews {
+  width: 155px;
+}
+.reviews {
+  width: 138px;
+}
+.specificationParent {
+  width: 703px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 100%;
+}
+.frameChild {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameGroup,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: column;
+  gap: 24px;
+}
+.frameWrapper {
+  width: 1487px;
+  flex-direction: row;
+  padding: 0 2px;
+  box-sizing: border-box;
+}
+.frameItem {
+  position: absolute;
+  top: 2px;
+  left: 309.5px;
+  width: 0;
+  height: 607px;
+  object-fit: contain;
+  z-index: 2;
+}
+.frameInner {
+  align-self: stretch;
+  height: 607px;
+  position: relative;
+  border: 1px solid #0e0e0e;
+  box-sizing: border-box;
+  display: none;
+}
+.serverPurpose {
+  display: inline-block;
+  min-width: 122px;
+}
+.hostingACrypto,
+.serverPurpose {
+  position: relative;
+  line-height: 24px;
+  z-index: 1;
+}
+.hostingACryptoCurrenyExchaWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameDiv,
+.serverPurposeParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.serverPurposeParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.frameDiv {
+  width: 803px;
+  justify-content: flex-start;
+  padding: 0 67px 0 67.5px;
+  box-sizing: border-box;
+}
+.frameContainer,
+.vectorIcon {
+  align-self: stretch;
+  max-width: 100%;
+}
+.vectorIcon {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.frameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 6px;
+  box-sizing: border-box;
+  gap: 32px;
+}
+.serverType {
+  display: inline-block;
+  min-width: 93px;
+}
+.serverType,
+.virtualPrivateServer {
+  position: relative;
+  line-height: 24px;
+  z-index: 1;
+}
+.frameWrapper1,
+.serverTypeParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.serverTypeParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.frameWrapper1 {
+  width: 663px;
+  justify-content: flex-start;
+  padding: 0 67px 0 67.5px;
+  box-sizing: border-box;
+}
+.frameChild1,
+.frameParent1 {
+  align-self: stretch;
+  max-width: 100%;
+}
+.frameChild1 {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 3;
+}
+.frameParent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 4px;
+  box-sizing: border-box;
+  gap: 34px;
+}
+.cryptoCurrencySoftware {
+  position: relative;
+  line-height: 24px;
+  z-index: 1;
+}
+.cryptoCurrencySoftwareWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3px 0 0;
+}
+.bitcoinCoreV0220 {
+  position: relative;
+  line-height: 24px;
+  z-index: 1;
+}
+.frameParent3,
+.frameWrapper2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent3 {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.frameWrapper2 {
+  width: 602px;
+  justify-content: flex-start;
+  padding: 0 67px 0 67.5px;
+  box-sizing: border-box;
+}
+.frameChild2 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 3;
+}
+.backUps {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 76px;
+  z-index: 1;
+}
+.backUpsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 4px 0 0;
+}
+.nightlyBackupsWith {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameParent4 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+.frameParent2,
+.frameWrapper3,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameWrapper3 {
+  width: 810px;
+  flex-direction: row;
+  padding: 0 67px 0 67.5px;
+  box-sizing: border-box;
+}
+.frameParent2,
+.rectangleParent {
+  flex-direction: column;
+}
+.frameParent2 {
+  align-self: stretch;
+  gap: 36.5px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid #0e0e0e;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 38px 0 35px;
+  gap: 38px;
+  height: 100%;
+}
+.vectorParent {
+  align-self: stretch;
+  height: 609px;
+  position: relative;
+  max-width: 100%;
+  font-size: 16px;
+  font-family: Montserrat;
+}
+.frameParent,
+.pdpInner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1534px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 43px;
+}
+.pdpInner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 22px 0 20px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 24px;
+  color: #0e0e0e;
+  font-family: Audiowide;
+}
+@media screen and (max-width: 850px) {
+  .serverPurposeParent,
+  .specificationParent {
+    flex-wrap: wrap;
+  }
+  .frameDiv {
+    padding-left: 33px;
+    padding-right: 33px;
+    box-sizing: border-box;
+  }
+  .frameContainer {
+    gap: 16px;
+  }
+  .frameWrapper1 {
+    padding-left: 33px;
+    padding-right: 33px;
+    box-sizing: border-box;
+  }
+  .frameParent1 {
+    gap: 17px;
+  }
+  .frameParent3 {
+    flex-wrap: wrap;
+  }
+  .frameWrapper2 {
+    padding-left: 33px;
+    padding-right: 33px;
+    box-sizing: border-box;
+  }
+  .frameParent4 {
+    flex-wrap: wrap;
+  }
+  .frameWrapper3 {
+    padding-left: 33px;
+    padding-right: 33px;
+    box-sizing: border-box;
+  }
+  .frameParent2 {
+    gap: 18px;
+  }
+  .rectangleParent {
+    gap: 19px;
+  }
+  .vectorParent {
+    height: auto;
+    min-height: 609;
+  }
+  .frameParent {
+    gap: 21px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .enquiries,
+  .reviews,
+  .specification {
+    font-size: 19px;
+    line-height: 22px;
+  }
+  .serverTypeParent {
+    flex-wrap: wrap;
+  }
+}

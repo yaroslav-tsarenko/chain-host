@@ -1,0 +1,57 @@
+.frameChild {
+  height: 86px;
+  width: 86px;
+  position: relative;
+  object-fit: contain;
+}
+.atChainhostWe,
+.innovationAsOur {
+  align-self: stretch;
+  position: relative;
+}
+.innovationAsOur {
+  margin: 0;
+  font-size: inherit;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.atChainhostWe {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Montserrat;
+}
+.innovationAsOurCompassParent,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.innovationAsOurCompassParent {
+  flex: 1;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 327px;
+}
+.rectangleParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 34px;
+  text-align: left;
+  font-size: 24px;
+  color: #0e0e0e;
+  font-family: Audiowide;
+}
+@media screen and (max-width: 850px) {
+  .rectangleParent {
+    flex-wrap: wrap;
+    gap: 17px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .innovationAsOur {
+    font-size: 19px;
+    line-height: 22px;
+  }
+}

@@ -1,0 +1,97 @@
+.frameChild {
+  height: 1170px;
+  width: 1920px;
+  position: relative;
+  background-color: #0e0e0e;
+  display: none;
+  max-width: 100%;
+}
+.advantagesOfChoosing {
+  margin: 0;
+  width: 853px;
+  position: relative;
+  font-size: inherit;
+  line-height: 54px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.advantageCardsIcon,
+.advantageCardsIcon1,
+.advantageCardsIcon2 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  flex-shrink: 0;
+}
+.advantageCardsParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+  max-width: 100%;
+  color: transparent;
+}
+.advantagesContent,
+.rectangleParent {
+  display: flex;
+  max-width: 100%;
+  z-index: 1;
+}
+.advantagesContent {
+  width: 1536px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 64px;
+}
+.rectangleParent {
+  align-self: stretch;
+  background-color: #0e0e0e;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 183px 20px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 48px;
+  color: #fff;
+  font-family: Audiowide;
+}
+@media screen and (max-width: 1225px) {
+  .rectangleParent {
+    padding-top: 980px;
+    padding-bottom: 119px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .advantagesOfChoosing {
+    font-size: 38px;
+    line-height: 43px;
+  }
+  .advantageCardsParent {
+    gap: 20px;
+  }
+  .advantagesContent {
+    gap: 32px;
+  }
+  .rectangleParent {
+    padding-bottom: 77px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .advantagesOfChoosing {
+    font-size: 29px;
+    line-height: 32px;
+  }
+  .advantagesContent {
+    gap: 16px;
+  }
+}

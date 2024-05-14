@@ -1,0 +1,189 @@
+.frequentlyAskedQuestions {
+  align-self: stretch;
+  height: 108px;
+  position: relative;
+  line-height: 54px;
+  display: inline-block;
+}
+.fAQTitle {
+  width: 787px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.fAQChild {
+  height: 40px;
+  width: 178px;
+}
+.fAQ {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+.whatIsCryptocurrency {
+  width: 867px;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.cryptoIconImage {
+  width: 16px;
+  height: 10px;
+  position: relative;
+  object-fit: contain;
+}
+.cryptoIcon,
+.cryptoTitle {
+  display: flex;
+  justify-content: space-between;
+}
+.cryptoIcon {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.5px 8px;
+  box-sizing: border-box;
+  min-height: 11px;
+}
+.cryptoTitle {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+  gap: 20px;
+}
+.cryptocurrencyIsA {
+  width: 867px;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.cryptoContent {
+  width: 1450px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.cryptoDescriptionIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.cryptoDescription {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 24px;
+  max-width: 100%;
+}
+.whatIsCrypto {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.stakingContent {
+  width: 867px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.stakingIconImage {
+  width: 16px;
+  height: 10px;
+  position: relative;
+  object-fit: contain;
+}
+.stakingDescription,
+.stakingIcon {
+  display: flex;
+  justify-content: space-between;
+}
+.stakingIcon {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.5px 8px;
+  box-sizing: border-box;
+  min-height: 11px;
+}
+.stakingDescription {
+  width: 1450px;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+  gap: 20px;
+}
+.fAQExamples,
+.fAQParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 36px;
+  max-width: 100%;
+  font-size: 20px;
+  font-family: Montserrat;
+}
+.fAQParent {
+  gap: 64px;
+  text-align: left;
+  font-size: 48px;
+  color: #0e0e0e;
+  font-family: Audiowide;
+}
+@media screen and (max-width: 1225px) {
+  .cryptoTitle,
+  .fAQ,
+  .stakingDescription {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 850px) {
+  .frequentlyAskedQuestions {
+    font-size: 38px;
+    line-height: 43px;
+  }
+  .fAQExamples {
+    gap: 18px;
+  }
+  .fAQParent {
+    gap: 32px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frequentlyAskedQuestions {
+    font-size: 29px;
+    line-height: 32px;
+  }
+  .whatIsCrypto,
+  .whatIsCryptocurrency {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .fAQParent {
+    gap: 16px;
+  }
+}

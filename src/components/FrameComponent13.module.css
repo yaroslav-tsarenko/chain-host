@@ -1,0 +1,285 @@
+.frameChild,
+.frameItem {
+  height: 953px;
+  position: relative;
+  max-width: 100%;
+}
+.frameChild {
+  flex: 1;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 624px;
+  min-height: 953px;
+}
+.frameItem {
+  width: 960px;
+  background-color: #0bd752;
+  display: none;
+}
+.atChainhostWe,
+.chartingCryptocurrencysFutu {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.chartingCryptocurrencysFutu {
+  margin: 0;
+  font-size: inherit;
+  line-height: 54px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.atChainhostWe {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Montserrat;
+}
+.chartingCryptocurrencysFutuParent {
+  width: 649px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  max-width: 100%;
+  font-size: 48px;
+}
+.frameInner {
+  height: 145px;
+  width: 145px;
+  position: relative;
+  background-color: #0e0e0e;
+  display: none;
+}
+.rectangleIcon {
+  height: 97px;
+  width: 97px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangleContainer {
+  background-color: #0e0e0e;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 24px;
+  box-sizing: border-box;
+  min-width: 145px;
+  z-index: 1;
+}
+.vision {
+  margin: 0;
+  width: 149px;
+  position: relative;
+  font-size: inherit;
+  line-height: 42px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.empoweringTheWorld {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Montserrat;
+  z-index: 1;
+}
+.frameParent,
+.frameWrapper,
+.visionParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.visionParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 8px;
+}
+.frameParent,
+.frameWrapper {
+  max-width: 100%;
+}
+.frameWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: 11.5px 0 0;
+  box-sizing: border-box;
+  min-width: 255px;
+}
+.frameParent {
+  width: 593px;
+  flex-direction: row;
+  gap: 56px;
+}
+.rectangleDiv {
+  height: 145px;
+  width: 145px;
+  position: relative;
+  background-color: #0e0e0e;
+  display: none;
+}
+.frameChild1 {
+  height: 97px;
+  width: 97px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.groupDiv {
+  background-color: #0e0e0e;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 24px;
+  box-sizing: border-box;
+  min-width: 145px;
+  z-index: 1;
+}
+.mission,
+.toBeThe {
+  position: relative;
+  z-index: 1;
+}
+.mission {
+  margin: 0;
+  width: 186px;
+  font-size: inherit;
+  line-height: 42px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.toBeThe {
+  align-self: stretch;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Montserrat;
+}
+.frameContainer,
+.missionParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.missionParent {
+  align-self: stretch;
+  gap: 8px;
+}
+.frameContainer {
+  flex: 1;
+  padding: 11.5px 0 0;
+  box-sizing: border-box;
+  min-width: 233px;
+  max-width: 100%;
+}
+.frameGroup {
+  width: 559px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 56px;
+}
+.frameGroup,
+.rectangleGroup,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.rectangleGroup {
+  flex: 0.7813;
+  background-color: #0bd752;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 135px 105px 134px;
+  box-sizing: border-box;
+  gap: 56px;
+  min-width: 624px;
+}
+.rectangleParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  row-gap: 20px;
+  text-align: left;
+  font-size: 36px;
+  color: #0e0e0e;
+  font-family: Audiowide;
+}
+@media screen and (max-width: 1525px) {
+  .frameChild,
+  .rectangleGroup {
+    flex: 1;
+  }
+  .rectangleParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .rectangleGroup {
+    padding: 88px 52px 87px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .frameChild {
+    min-width: 100%;
+  }
+  .chartingCryptocurrencysFutu {
+    font-size: 38px;
+    line-height: 43px;
+  }
+  .rectangleContainer,
+  .rectangleIcon {
+    flex: 1;
+  }
+  .vision {
+    font-size: 29px;
+    line-height: 34px;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+    gap: 28px;
+  }
+  .frameChild1,
+  .groupDiv {
+    flex: 1;
+  }
+  .mission {
+    font-size: 29px;
+    line-height: 34px;
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+    gap: 28px;
+  }
+  .rectangleGroup {
+    padding-top: 57px;
+    padding-bottom: 57px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .chartingCryptocurrencysFutu {
+    font-size: 29px;
+    line-height: 32px;
+  }
+  .mission,
+  .vision {
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .rectangleGroup {
+    gap: 28px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

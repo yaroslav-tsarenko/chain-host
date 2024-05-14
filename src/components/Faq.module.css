@@ -1,0 +1,151 @@
+.whatIsCryptocurrency {
+  width: 867px;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.iconWhat {
+  width: 16px;
+  height: 10px;
+  position: relative;
+  object-fit: contain;
+}
+.cryptoIcon,
+.cryptoTitle {
+  display: flex;
+  justify-content: space-between;
+}
+.cryptoIcon {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.5px 8px;
+  box-sizing: border-box;
+  min-height: 11px;
+}
+.cryptoTitle {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+  gap: 20px;
+}
+.cryptocurrencyIsA {
+  width: 867px;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.whatIsCrypto {
+  width: 1450px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.cryptoInfo,
+.infoIcon {
+  align-self: stretch;
+  max-width: 100%;
+}
+.infoIcon {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+}
+.cryptoInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 24px;
+}
+.whatIsCrypto1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.stakingTitle {
+  width: 867px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.iconStaking {
+  width: 16px;
+  height: 10px;
+  position: relative;
+  object-fit: contain;
+}
+.stakingIcon,
+.whatIsStaking {
+  display: flex;
+  justify-content: space-between;
+}
+.stakingIcon {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.5px 8px;
+  box-sizing: border-box;
+  min-height: 11px;
+}
+.whatIsStaking {
+  width: 1450px;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+  gap: 20px;
+}
+.faq,
+.faqGrid {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.faqGrid {
+  width: 1536px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 36px;
+}
+.faq {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 20px;
+  color: #0e0e0e;
+  font-family: Montserrat;
+}
+@media screen and (max-width: 1225px) {
+  .cryptoTitle,
+  .whatIsStaking {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 850px) {
+  .faqGrid {
+    gap: 18px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .whatIsCrypto1,
+  .whatIsCryptocurrency {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

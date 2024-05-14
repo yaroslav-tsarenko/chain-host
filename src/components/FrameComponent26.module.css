@@ -1,0 +1,76 @@
+.serverConfiguration {
+  position: relative;
+  line-height: 24px;
+  z-index: 1;
+}
+.serverConfigurationWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+}
+.cpuCores18 {
+  width: 641px;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameGroup,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.frameWrapper {
+  width: 1089px;
+  justify-content: flex-start;
+  padding: 0 67px 0 67.5px;
+  box-sizing: border-box;
+}
+.frameChild,
+.frameParent {
+  align-self: stretch;
+  max-width: 100%;
+}
+.frameChild {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 3;
+}
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 35px;
+  text-align: left;
+  font-size: 16px;
+  color: #0e0e0e;
+  font-family: Montserrat;
+}
+@media screen and (max-width: 1225px) {
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .frameWrapper {
+    padding-left: 33px;
+    padding-right: 33px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .frameParent {
+    gap: 17px;
+  }
+}
