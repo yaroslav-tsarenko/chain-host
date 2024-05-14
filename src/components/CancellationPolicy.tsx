@@ -1,9 +1,13 @@
-import { FunctionComponent } from "react";
 import { Button } from "@mui/material";
-import FrameComponent1 from "../components/FrameComponent1";
+import {FC} from "react";
 import styles from "./CancellationPolicy.module.css";
 
-const CancellationPolicy: FunctionComponent = () => {
+interface CancellationPolicyProps {
+  privacyPolicy?: string;
+  // include other props here
+}
+
+const CancellationPolicy: FC<CancellationPolicyProps> = ({ privacyPolicy }) => {
   return (
     <div className={styles.cancellationPolicy}>
       <section className={styles.frameParent}>
@@ -63,28 +67,6 @@ const CancellationPolicy: FunctionComponent = () => {
           </div>
         </div>
       </section>
-      <FrameComponent1
-        privacyPolicy="**Cancellation Policy**"
-        informationCollectionAndU="**1. Cancellation Process**"
-        companyNameCollectsAndUse="- [Company Name] allows customers to cancel their services in accordance with the terms and conditions outlined below. To initiate a cancellation, customers must contact our customer support team through [contact details] or [support email] and provide the necessary information for verification."
-        typesOfInformationCollect="**2. Eligibility for Cancellation**"
-        theTypesOfPersonalInforma="- [Company Name] reserves the right to determine eligibility for cancellations based on the specific product or service being offered. Not all products or services may be eligible for cancellation."
-        howInformationIsCollected="**3. Refunds**"
-        informationMayBeCollected="- [Company Name] may offer refunds in accordance with our Refund Policy, which can be found [insert link to Refund Policy section]."
-        informationSharing="**4. Cancellation Fees**"
-        companyNameMaySharePerson="- Depending on the product or service, cancellation fees may apply. These fees will be clearly communicated to customers at the time of purchase or in the terms and conditions of the specific service."
-        security="**5. Cancellation Window**"
-        companyNameIsCommittedToE="- The duration during which cancellations are accepted may vary for different products or services. Customers are advised to refer to the terms and conditions of their specific purchase for details."
-        cookiesAndTracking="**6. Cancellation After the Cancellation Window**"
-        companyNameMayUseCookiesA="- In certain cases, cancellations requested after the cancellation window may be subject to additional fees or restrictions. The customer support team will provide further details."
-        thirdPartyLinks="**7. Right to Suspend or Terminate Services**"
-        theCompanyNameWebsiteMayC="- [Company Name] reserves the right to suspend or terminate services for customers who breach the terms and conditions, at the sole discretion of [Company Name]."
-        changesToThePrivacyPolicy="**8. Changes to the Cancellation Policy**"
-        companyNameReservesTheRig="- [Company Name] may update or modify the Cancellation Policy from time to time. Customers will be notified of such changes, and it is their responsibility to review the policy periodically."
-        ifYouHaveAnyQuestionsOrCo="- If you have questions or concerns regarding our Cancellation Policy, please contact our customer support team at [support email]."
-        informationMayBeHeight="unset"
-        informationMayBeDisplay="unset"
-      />
       <section className={styles.frameSection}>
         <div className={styles.rectangleParent}>
           <div className={styles.frameInner} />

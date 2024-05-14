@@ -75,7 +75,7 @@ function App() {
       <Route path="/blog-lisitng" element={<BlogLisitng />} />
       <Route path="/terms-and-conditions" element={<TermsConditions />} />
       <Route path="/get-started" element={<GetStarted/>} />
-      <Route path="/contact" element={<Contact />} />
+      <Route path="/contact" element={<Contact/>} />
     </Routes>
   );
 }
