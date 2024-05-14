@@ -35,8 +35,6 @@ const Faq: FunctionComponent = () => {
             src="/vector-10.svg"
           />
         </div>
-        <FrameComponent2 howDoIBuyCryptocurrencies=" How do I buy cryptocurrencies?" />
-        <FrameComponent2 howDoIBuyCryptocurrencies="How do I secure my crypto assets?" />
         <div className={styles.whatIsStaking}>
           <div className={styles.stakingTitle}>
             <div className={styles.whatIsCrypto1}> What is crypto staking?</div>

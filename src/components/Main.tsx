@@ -15,8 +15,6 @@ const Main: FunctionComponent = () => {
           />
           <div className={styles.exploreMoreBlogsParent}>
             <h1 className={styles.exploreMoreBlogs}>Explore More Blogs</h1>
-            <FrameComponent titleBackground="/rectangle-24@2x.png" />
-            <FrameComponent titleBackground="/rectangle-24-1@2x.png" />
           </div>
         </div>
         <div className={styles.savanahKhanParent}>
